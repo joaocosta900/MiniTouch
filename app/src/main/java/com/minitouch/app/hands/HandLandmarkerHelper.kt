@@ -30,7 +30,7 @@ class HandLandmarkerHelper(
 
     init {
         val baseOptions = BaseOptions.builder()
-            .setModelAssetPath("hand_landmarker.task")
+            .setModelAssetPath("models/hand_landmarker.task")
             .setDelegate(if (useGpu) Delegate.GPU else Delegate.CPU)
             .build()
 
